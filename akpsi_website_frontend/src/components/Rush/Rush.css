@@ -1,19 +1,25 @@
 .welcome-paragraph {
-    padding:0px 10px 0px 10px;
-    display: flex;
-    flex-direction: column;
-    width:60%;
-    min-width: 800px;
+	padding: 0px 10px 0px 10px;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	min-width: 800px;
 }
 
 .welcome-page {
-    color:black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .welcome-paragraph p {
-    margin-top: 5px;
+	margin-top: 5px;
+}
+.schedule-page {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 100%;
 }
