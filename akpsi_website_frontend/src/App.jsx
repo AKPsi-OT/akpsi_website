@@ -18,8 +18,8 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
+      {/*<Navbar />*/}
+      <Routes>{/*
         <Route path="/" element={<Home />} />
         <Route path="/about/our-story" element={<OurStory />} />
         <Route path="/about/pillars" element={<Pillars />} />
@@ -32,9 +32,10 @@ function App() {
         <Route path="/leadership" element={<Leadership />} />
         <Route path="/brothers/alumni" element={<Alumni />} />
         <Route path="/brothers/families" element={<Families />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />}
         {/* Add other routes as needed */}
       </Routes>
+      <Welcome/>
     </Router>
   );
 }

@@ -1,0 +1,19 @@
+.welcome-paragraph {
+    padding:0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    min-width: 800px;
+}
+
+.welcome-page {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.welcome-paragraph p {
+    margin-top: 5px;
+}
