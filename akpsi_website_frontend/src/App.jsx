@@ -35,7 +35,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />}
         {/* Add other routes as needed */}
       </Routes>
-      <Schedule/>
+      <Faq/>
     </Router>
   );
 }
