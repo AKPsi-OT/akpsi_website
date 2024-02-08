@@ -1,7 +1,13 @@
 import '../styles/Brother.css'
-function Brother() {
+function Brother(props) {
     return (
-        <h1>Insert Name of Brother Here</h1>
+        <>
+            <h1>{props.name}</h1>
+            {props.eboard && <p>{props.position}</p>}
+            <img src={props.image} />
+
+        </>
+
     )
 }
 
