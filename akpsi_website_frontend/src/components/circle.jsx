@@ -1,4 +1,4 @@
-export default function Circle(props) {
+function Circle(props) {
     return (
         <div style={{ height: "110px", width: "500px" }}>
             <svg height="110" width="500">
@@ -17,3 +17,5 @@ export default function Circle(props) {
         </div>
     );
 }
+
+export default Circle;

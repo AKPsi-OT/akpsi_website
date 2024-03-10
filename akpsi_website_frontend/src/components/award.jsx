@@ -1,5 +1,5 @@
 import React from 'react';
-function HelpingHandAward(props) {
+function Award(props) {
     return (
         <div>
             <h2><strong>{props.awardName}</strong> - {props.recipient} {props.year}</h2>
@@ -9,3 +9,5 @@ function HelpingHandAward(props) {
         </div>
     );
 }
+
+export default Award;

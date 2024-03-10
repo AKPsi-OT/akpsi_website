@@ -1,4 +1,7 @@
 import '../styles/About.css'
+import Award from 'Award'
+import Circle from 'Circle'
+
 /*
 position: absolute will help the background images stay in place
 GOAL: have text and following sections overlay that image
@@ -10,7 +13,7 @@ GOAL: have text and following sections overlay that image
 function About() {
     return (
         <div>
-            <div>
+            <div className="our-story">
                 <h1>Our Story</h1>
                 <p>Alpha Kappa Psi first came to the University of Maryland, College Park in the Spring of 2006, when a
                     Brother who had transferred from the Lambda Nu Chapter at American University in Washington, DC, started an interest group. After years of unsuccessful attempts,
@@ -35,7 +38,7 @@ function About() {
                 </p>
             </div>
 
-            <div>
+            <div className="pillars">
                 <h1>Pillars</h1>
                 <h3>Professionalism</h3>
                 <p>
