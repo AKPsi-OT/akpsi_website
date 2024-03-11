@@ -1,0 +1,36 @@
+/* Gallery.css */
+.gallery-page {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.gallery-container {
+  width: 100%; /* Full width to match the screenshot's style */
+  max-width: 1280px; /* Maximum width, can adjust as needed */
+  margin: 0 auto; /* Center the container */
+  padding-top: 80px; /* Adjust this value so that the content starts below the navbar */
+  text-align: center; /* Center align the content */
+}
+
+.gallery-title {
+  font-size: 3rem; /* Larger font size for the title */
+  font-weight: 900; /* Heavier font weight if available */
+  letter-spacing: 0.1rem; /* Adjust letter-spacing as needed */
+  margin: 0;
+  padding-bottom: 1rem; /* Space below the title */
+  padding-top: 60px;
+}
+
+/* Adjust the intro paragraph if needed */
+.gallery-intro {
+  font-size: 1.25rem; /* Adjust the font size as needed */
+  margin: 1rem 0;
+}
+
+/* Styles for Instagram feed iframe */
+.instagram-section iframe {
+  /* Your existing styles for the iframe */
+}
+
+/* Add any additional styles you need for other elements */

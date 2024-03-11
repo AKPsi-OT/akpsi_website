@@ -1,24 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
+# Removed pnpm-debug.log* and lerna-debug.log* as examples, re-add if you use pnpm or Lerna
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS-generated files
+.DS_Store
+*.local
+
+# Note: Adjust based on your specific use cases. For example, if you don't use Visual Studio, IntelliJ,
+# or certain file types (e.g., .suo, .ntvs*, .njsproj,
