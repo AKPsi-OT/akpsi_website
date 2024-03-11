@@ -1,0 +1,28 @@
+body {
+    font-weight:bold;
+    font-family: "Arial Light", Arial, Helvetica, sans-serif; /* Use Arial Light as the primary font family */
+    
+    font-size: 1em;
+    
+}
+
+.boardMemberContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.brotherDiv {
+    padding: 1.5em;
+}
+
+.brotherDiv h2 {
+    font-size: 1.75em;
+
+}
+
+.brotherDiv img {
+    height:13em;
+    width: 12.5em;
+}
+
