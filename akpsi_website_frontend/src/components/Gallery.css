@@ -1,9 +1,4 @@
 /* Gallery.css */
-.gallery-page {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
 
 .gallery-container {
   width: 100%; /* Full width to match the screenshot's style */
@@ -28,9 +23,18 @@
   margin: 1rem 0;
 }
 
-/* Styles for Instagram feed iframe */
-.instagram-section iframe {
-  /* Your existing styles for the iframe */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* This ensures the page can scroll */
 }
 
-/* Add any additional styles you need for other elements */
+.gallery-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Minimum height to fill the viewport, but can grow */
+}
+
+/* Add additional styles here */
