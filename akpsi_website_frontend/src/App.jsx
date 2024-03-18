@@ -1,14 +1,14 @@
 import './App.css'
-import Home from './components/Home'
-import Leadership from './components/Leadership'
+// import Leadership from './components/Leadership'
+
+import About from './components/About'
 
 function App() {
  
   return (
     <>
       <div>
-        <Leadership></Leadership>
-        <Home/>
+        <About/>
       </div>
     </>
   )

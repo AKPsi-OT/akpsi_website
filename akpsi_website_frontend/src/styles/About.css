@@ -1,0 +1,191 @@
+h1 {
+    letter-spacing: 0.1em;
+}
+.about-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  font-size: 120%; 
+}
+/* Our Story Section */
+.our-story-title {
+    text-align: center;
+}
+.our-story-info {
+    padding-top: 2em;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-bottom: 2em;
+    font-size: 1.05em;
+
+    
+}
+
+/* Pillars Section */
+.pillars-intro{
+    background: url('https://static.wixstatic.com/media/c8fdbf_80e95a4678d745d897380e449978f787~mv2_d_4523_2256_s_2.jpg/v1/fill/w_980,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c8fdbf_80e95a4678d745d897380e449978f787~mv2_d_4523_2256_s_2.jpg%22') fixed; /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 25em;
+    position: relative;
+
+}
+
+.pillars-intro-title {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 3em;
+    color: white;
+}
+
+.pillars h2 {
+    text-align: center;
+}
+.pillars {
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-bottom: 2em;
+    font-size: 1.05em;
+
+}
+
+
+.pillars-section-inner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width:fit-content;
+}
+
+.circle {
+    display: inline-block;
+    width: 20px; /* size of the circle */
+    height: 20px; /* size of the circle */
+    border: 2px solid;
+    border-radius: 50%; /* makes it round */
+    margin: 1em;
+}
+
+.pillars-quote {
+    text-align: center;
+}
+
+/* Awards Section */
+.awards-intro{
+    background: url('https://static.wixstatic.com/media/c8fdbf_d4488f8e57de419ea0be6a1728fde614~mv2_d_3089_2114_s_2.jpg/v1/fill/w_980,h_840,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c8fdbf_d4488f8e57de419ea0be6a1728fde614~mv2_d_3089_2114_s_2.jpg') fixed; /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 25em;
+    position: relative;
+
+}
+
+.awards-intro-title {
+    position:absolute;
+    bottom:1;
+    right:0;
+    margin-right: 3em;
+    color: black;
+}
+.awards {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.chapter-of-year-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.chapter-of-year-div h2, .first-place-div h2, .ind-div h2, .dist-div h2, .academy-div h2, .other-div h2{
+    font-size: 2.25em;
+}
+
+
+.first-place-div, .ind-div, .dist-div, .academy-div, .other-div {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.05em;
+
+}
+.first-place-div h2, .ind-div h2, .dist-div h2, .academy-div h2, .other-div h2{
+    text-align: center;
+}
+.first-place-container {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.first-place-circle {
+    background-color: white;
+    color: black;
+}
+
+.dist-awards-container {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 0.75em;
+}
+
+.separator {
+    border:none;
+    border-right: 5px solid rgb(106, 215, 219);
+    margin-right: 2em;
+}
+
+.ind-awards-div, .other-div, .fast-div {
+    font-size: 1.05em;
+}
+
+.alumni {
+    text-align: center;
+    line-height: 0.75em;
+    font-size: 1.05em;
+}
+
+/* Fast Facts */
+.fast-facts-intro {
+    background: url('https://static.wixstatic.com/media/c8fdbf_c9b873d934104b02b0295f1db8d4ea44~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_980,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c8fdbf_c9b873d934104b02b0295f1db8d4ea44~mv2_d_5472_3648_s_4_2.jpg') fixed;
+    background-size:cover;
+    background-position: center top; /* Adjusted to show the upper half */
+    height: 25em;
+    position: relative;
+}
+
+
+.fast-facts-intro-title {
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 3em;
+    color: black;
+}
+
+.fast-facts-div h2 {
+    font-size: 2.25em;
+}
+.fast-facts-div {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.05em;
+}
+.facts {
+    text-align: left;
+}
