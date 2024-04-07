@@ -1,0 +1,13 @@
+.circle-div {
+    height: 5em;
+    width: 6em;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 2em;
+    font-size: 1.3em;
+    margin: 1em;
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "eileen-chen",
+    "name": "Eileen Chen",
+    "position": "President",
+    "image": {"path":"/src/assets/brother-headshots/eileen.webp"},
+    "eboard": true
+  },
+  {
+    "id": "rebecca-zhang",
+    "name": "Rebecca Zhang",
+    "position": "Executive Vice President",
+    "image": {"path":"/src/assets/brother-headshots/rebecca.webp"},
+    "eboard": true
+  },
+  {
+    "id": "mudit-mathur",
+    "name": "Mudit Mathur",
+    "position": "Chief of Staff",
+    "image": {"path":"/src/assets/brother-headshots/mudit.webp"},
+    "eboard": true
+  },
+  {
+    "id": "christopher-li",
+    "name": "Christopher Li",
+    "position": "Controller",
+    "image": {"path":"/src/assets/brother-headshots/chris.webp"},
+    "eboard": true
+  },
+  {
+    "id": "ansh-viswanathan",
+    "name": "Ansh Viswanathan",
+    "position": "VP Membership",
+    "image": {"path":"/src/assets/brother-headshots/ansh.webp"},
+    "eboard": true
+  },
+  {
+    "id": "jiayi-wang",
+    "name": "Jiayi Wang",
+    "position": "VP Finance",
+    "image": {"path":"/src/assets/brother-headshots/jiayi.webp"},
+    "eboard": true
+  },
+  {
+    "id": "tushar-garg",
+    "name": "Tushar Garg",
+    "position": "VP Professional Affairs",
+    "image": {"path":"/src/assets/brother-headshots/tushar.webp"},
+    "eboard": true
+  },
+  {
+    "id": "meilin-yuan",
+    "name": "Meilin Yuan",
+    "position": "VP Pledging",
+    "image": {"path":"/src/assets/brother-headshots/meilin.webp"},
+    "eboard": true
+  },
+  {
+    "id": "hannah-li",
+    "name": "Hannah Li",
+    "position": "VP Community Service",
+    "image": {"path":"/src/assets/brother-headshots/hannah.webp"},
+    "eboard": true
+  },
+  {
+    "id": "abhinav-mukherjee",
+    "name": "Abhinav Mukherjee",
+    "position": "VP Alumni Affairs",
+    "image": {"path":"/src/assets/brother-headshots/abhi.webp"},
+    "eboard": true
+  },
+  {
+    "id": "hudson-grill",
+    "name": "Hudson Grill",
+    "position": "Master of Rituals",
+    "image": {"path":"/src/assets/brother-headshots/hudson.webp"},
+    "eboard": true
+  },
+  {
+    "id": "so-eun-kim",
+    "name": "So Eun Kim",
+    "position": "VP Diversity, Equity, & Inclusion",
+    "image": {"path":"/src/assets/brother-headshots/soeun.webp"},
+    "eboard": true
+  }
+]

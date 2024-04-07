@@ -1,12 +1,25 @@
-import React from "react";
+import '../styles/Leadership.css'
+import boardMembers from '../assets/executiveboard.json'
+import Brother from './Brother'
 
-const Leadership = () => {
-  return (
-    <div>
-      <h1>Leadership</h1>
-      <p>This is the Leadership page.</p>
-    </div>
-  );
-};
+/*
+- read information from the JSON file, and then dynamically create
+components from that. Embed the Brother component inside of this component.
+*/
 
-export default Leadership;
+function Leadership() {
+    return (
+    
+        <div className="boardMemberDiv">
+            <h2><u>Omega Theta Chapter Executive Board</u></h2>
+            <div className="boardMemberContainer">
+                {boardMembers.map((member) => (
+                    <Brother key={member.id} name={member.name} position={member.position} image={member.image} eboard={member.eboard}/>
+                ))}
+            </div>
+           
+        </div>
+    )
+}
+
+export default Leadership
