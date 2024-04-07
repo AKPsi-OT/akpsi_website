@@ -3,23 +3,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 /* Image Imports */
-import alumni1 from '../static/imgs/alumni1.jpg'
-import alumni2 from '../static/imgs/alumni2.jpg';
-import alumni3 from '../static/imgs/alumni3.jpg';
-import alumni4 from '../static/imgs/alumni4.jpg';
-import alumni5 from '../static/imgs/alumni5.jpg';
-import alumni6 from '../static/imgs/alumni6.jpg';
-import alumni7 from '../static/imgs/alumni7.jpg';
-import alumni8 from '../static/imgs/alumni8.jpg';
-import alumni9 from '../static/imgs/alumni9.jpg';
-import alumni10 from '../static/imgs/alumni10.png';
-import alumni11 from '../static/imgs/alumni11.png';
-import alumni12 from '../static/imgs/alumni12.jpg';
-import alumni13 from '../static/imgs/alumni13.png';
-import alumni14 from '../static/imgs/alumni14.png';
-import alumni15 from '../static/imgs/alumni15.jpg';
-import alumni16 from '../static/imgs/alumni16.jpg';
-import alumni17 from '../static/imgs/alumni17.jpg';
+import alumni1 from '../assets/alumni/alumni1.jpg'
+import alumni2 from '../assets/alumni/alumni2.jpg';
+import alumni3 from '../assets/alumni/alumni3.jpg';
+import alumni4 from '../assets/alumni/alumni4.jpg';
+import alumni5 from '../assets/alumni/alumni5.jpg';
+import alumni6 from '../assets/alumni/alumni6.jpg';
+import alumni7 from '../assets/alumni/alumni7.jpg';
+import alumni8 from '../assets/alumni/alumni8.jpg';
+import alumni9 from '../assets/alumni/alumni9.jpg';
+import alumni10 from '../assets/alumni/alumni10.png';
+import alumni11 from '../assets/alumni/alumni11.png';
+import alumni12 from '../assets/alumni/alumni12.jpg';
+import alumni13 from '../assets/alumni/alumni13.png';
+import alumni14 from '../assets/alumni/alumni14.png';
+import alumni15 from '../assets/alumni/alumni15.jpg';
+import alumni16 from '../assets/alumni/alumni16.jpg';
+import alumni17 from '../assets/alumni/alumni17.jpg';
 
 
 

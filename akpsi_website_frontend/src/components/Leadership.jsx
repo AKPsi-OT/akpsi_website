@@ -1,5 +1,5 @@
 import '../styles/Leadership.css'
-import boardMembers from '../static/executiveboard.json'
+import boardMembers from '../assets/executiveboard.json'
 import Brother from './Brother'
 
 /*

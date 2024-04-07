@@ -1,6 +1,6 @@
 import '../styles/About.css';
 import Award from './award';
-import Circle from './Circle';
+import Circle from './circle';
 
 function About() {
     return (

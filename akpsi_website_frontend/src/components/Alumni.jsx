@@ -1,5 +1,5 @@
 import '../styles/Alumni.css'
-import alumni from '../static/imgs/alumni.webp'
+import alumni from '../assets/alumni/alumni.webp'
 import AlumniCarousel from './AlumniCarousel'
 
 /*
