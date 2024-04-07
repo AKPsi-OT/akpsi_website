@@ -17,7 +17,7 @@ const Navbar = () => {
           About
           <ul className="dropdown">
             <li>
-              <Link to="/about/our-story">Our Lovely Story</Link>
+              <Link to="/about/our-story">Our Story</Link>
             </li>
             <li>
               <Link to="/about/pillars">Pillars</Link>

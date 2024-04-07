@@ -1,7 +1,7 @@
 import React from "react";
-import sponsorshipImg from "../assets/sponsor_JPG.png";
-import capImg from "../assets/c1.svg";
-import bakerImg from "../assets/bakertilly.svg";
+import sponsorshipImg from "../assets/sponsors/sponsor_JPG.png";
+import capImg from "../assets/sponsors/c1.svg";
+import bakerImg from "../assets/sponsors/bakertilly.svg";
 import '../components/Sponsors.css';
 
 const Sponsors = () => {
