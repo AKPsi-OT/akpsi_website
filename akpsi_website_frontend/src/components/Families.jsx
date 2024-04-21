@@ -7,7 +7,9 @@ Login: tech leads can take care of
 */
 function Families() {
     return (
-        <h1>Families</h1>
+        <div>
+            <h1>Families</h1>
+        </div>
     )
 }
 

@@ -3,84 +3,84 @@
     "id": "eileen-chen",
     "name": "Eileen Chen",
     "position": "President",
-    "image": {"path":"/src/assets/brother-headshots/eileen.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/11Nii8UdENUqWzVky-kFjyiuZV04fTYmI"},
     "eboard": true
   },
   {
     "id": "rebecca-zhang",
     "name": "Rebecca Zhang",
     "position": "Executive Vice President",
-    "image": {"path":"/src/assets/brother-headshots/rebecca.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1ply0LeuLVj7ChSZHdxU94hqHwq_wW5hD"},
     "eboard": true
   },
   {
     "id": "mudit-mathur",
     "name": "Mudit Mathur",
     "position": "Chief of Staff",
-    "image": {"path":"/src/assets/brother-headshots/mudit.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1Yo_rlQ9dW39Q2MgXzjMEFlM0vJGUZAm3"},
     "eboard": true
   },
   {
     "id": "christopher-li",
     "name": "Christopher Li",
     "position": "Controller",
-    "image": {"path":"/src/assets/brother-headshots/chris.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1Y59dXsiZmDgOvJi26lBz3q04l3fyAXmV"},
     "eboard": true
   },
   {
     "id": "ansh-viswanathan",
     "name": "Ansh Viswanathan",
     "position": "VP Membership",
-    "image": {"path":"/src/assets/brother-headshots/ansh.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1yKplyU_U9Bh9Feu4q5ZXLLK55cS2zFby"},
     "eboard": true
   },
   {
     "id": "jiayi-wang",
     "name": "Jiayi Wang",
     "position": "VP Finance",
-    "image": {"path":"/src/assets/brother-headshots/jiayi.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1D-aUV3FrXflNJqjmLq3Xx2QVBMloIHUQ"},
     "eboard": true
   },
   {
     "id": "tushar-garg",
     "name": "Tushar Garg",
     "position": "VP Professional Affairs",
-    "image": {"path":"/src/assets/brother-headshots/tushar.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1n3YYqXkcd5OnXATOw0h5cy_BOiswzOzu"},
     "eboard": true
   },
   {
     "id": "meilin-yuan",
     "name": "Meilin Yuan",
     "position": "VP Pledging",
-    "image": {"path":"/src/assets/brother-headshots/meilin.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1wnfla-6t6ykzipwMHuJO_gp8U4aQPKHg"},
     "eboard": true
   },
   {
     "id": "hannah-li",
     "name": "Hannah Li",
     "position": "VP Community Service",
-    "image": {"path":"/src/assets/brother-headshots/hannah.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1XtqYOvngHK-xmQ2PbiyZpEPSWawXXdvg"},
     "eboard": true
   },
   {
     "id": "abhinav-mukherjee",
     "name": "Abhinav Mukherjee",
     "position": "VP Alumni Affairs",
-    "image": {"path":"/src/assets/brother-headshots/abhi.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/11Pe5zJuAKZzHqza1hm_9MtlYZ2BQl3p4"},
     "eboard": true
   },
   {
     "id": "hudson-grill",
     "name": "Hudson Grill",
     "position": "Master of Rituals",
-    "image": {"path":"/src/assets/brother-headshots/hudson.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1xeP0pjVpq6OZ4ChhAg7kFR8vSlzzTU_U"},
     "eboard": true
   },
   {
     "id": "so-eun-kim",
     "name": "So Eun Kim",
     "position": "VP Diversity, Equity, & Inclusion",
-    "image": {"path":"/src/assets/brother-headshots/soeun.webp"},
+    "image": {"path":"https://lh3.googleusercontent.com/d/1ge1cnFMGYKGDw8LMX4VU3W4VmoNAKGKu"},
     "eboard": true
   }
 ]

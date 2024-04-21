@@ -1,5 +1,4 @@
 import '../styles/Alumni.css'
-import alumni from '../assets/alumni/alumni.webp'
 import AlumniCarousel from './AlumniCarousel'
 
 /*
@@ -7,6 +6,7 @@ import AlumniCarousel from './AlumniCarousel'
     Slideshow Link (provided by Aaron): https://coreui.io/react/docs/components/carousel/#:~:text=React%20carousel%20is%20a%20slideshow,of%20text—like%20a%20carousel.
 */
 function Alumni() {
+    const alumni = "https://lh3.googleusercontent.com/d/1vLlPugMYgKG3Eg6BL5p-DxbVeE_Y5Hzf"
     return (
         <div className="alumni-div">
             <div className="alumni-div-content">

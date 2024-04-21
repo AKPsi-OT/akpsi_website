@@ -1,11 +1,30 @@
 import '../styles/About.css';
 import Award from './award';
 import Circle from './circle';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
 
 function About() {
+    const location = useLocation();
+
+    useEffect(() => {
+        // Extract the hash from the URL (e.g., '#our-story')
+        const hash = location.hash;
+
+        // If there's a hash, scroll to the element with that ID
+        if (hash) {
+            const element = document.getElementById(hash.substring(1));
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    }, [location.hash]); // Rerun effect when hash changes
+
+
     return (
         <div className="about-section">
-            <section className="our-story">
+            <section id = "our-story" className="our-story">
                 <div className="our-story-info">
                     <h1 className='our-story-title'>OUR STORY</h1>
                     <p>Alpha Kappa Psi first came to the University of Maryland, College Park in the Spring of 2006, when a
@@ -31,7 +50,7 @@ function About() {
                     </p>
                 </div>
             </section>
-            <section className="pillars-intro">
+            <section id="pillars" className="pillars-intro">
                 <div className="pillars-background-content">
                     <h1 className="pillars-intro-title">PILLARS</h1>
                 </div>
@@ -80,7 +99,7 @@ function About() {
                 </p>
                 <p className="pillars-quote"><i>&ldquo;Mixing business with pleasure since 1904&rdquo;</i></p>
             </section>
-            <section className="awards-intro">
+            <section id="awards" className="awards-intro">
                 <div className="awards-background-content">
                     <h1 className="awards-intro-title">AWARDS</h1>
                 </div>

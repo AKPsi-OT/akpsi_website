@@ -3,27 +3,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 /* Image Imports */
-import alumni1 from '../assets/alumni/alumni1.jpg'
-import alumni2 from '../assets/alumni/alumni2.jpg';
-import alumni3 from '../assets/alumni/alumni3.jpg';
-import alumni4 from '../assets/alumni/alumni4.jpg';
-import alumni5 from '../assets/alumni/alumni5.jpg';
-import alumni6 from '../assets/alumni/alumni6.jpg';
-import alumni7 from '../assets/alumni/alumni7.jpg';
-import alumni8 from '../assets/alumni/alumni8.jpg';
-import alumni9 from '../assets/alumni/alumni9.jpg';
-import alumni10 from '../assets/alumni/alumni10.png';
-import alumni11 from '../assets/alumni/alumni11.png';
-import alumni12 from '../assets/alumni/alumni12.jpg';
-import alumni13 from '../assets/alumni/alumni13.png';
-import alumni14 from '../assets/alumni/alumni14.png';
-import alumni15 from '../assets/alumni/alumni15.jpg';
-import alumni16 from '../assets/alumni/alumni16.jpg';
-import alumni17 from '../assets/alumni/alumni17.jpg';
 
 
 
 function AlumniCarousel() {
+    const alumni1 = 'https://lh3.googleusercontent.com/d/1EF6XJziDpZ5ekDlo2Yfv_kQ-wal84wkh';
+    const alumni2 = 'https://lh3.googleusercontent.com/d/1GJHpnjwdx23kxlIm9zd3tLf-tWrlGErC';
+    const alumni3 = 'https://lh3.googleusercontent.com/d/1PTwtGri2X0NzcGZmiuLCc197XAjw61HF';
+    const alumni4 = 'https://lh3.googleusercontent.com/d/1_Rlguf4Kz2I0RA7WHoCcE43Z-ImJmwf6';
+    const alumni5 = 'https://lh3.googleusercontent.com/d/1cfPu9U8cgLsK_70iom-I66mA-RQI3hfF';
+    const alumni6 = 'https://lh3.googleusercontent.com/d/1Iz99Wz9cL-445pF3abi04_wDBphZTi8y';
+    const alumni7 = 'https://lh3.googleusercontent.com/d/1oFMWfBI0h2HoGPb03nKB9THOIfJMuA-N';
+    const alumni8 = 'https://lh3.googleusercontent.com/d/1o5xW9M7kVHFO1DiZrjbvnj6oCC48C9pm';
+    const alumni9 = 'https://lh3.googleusercontent.com/d/1AyDQiH364Emnot1ouXvU7VhIIFSdHYhv';
+    const alumni10 = 'https://lh3.googleusercontent.com/d/1rHQ7ws62tYQYyPeZDa1xPGY4c63LwM09';
+    const alumni11 = 'https://lh3.googleusercontent.com/d/1FOpSlQHFAP-uX3bv1JFqP6Xp7xrOAF_i';
+    const alumni12 = 'https://lh3.googleusercontent.com/d/1p0iBKrmidrRPdhrY_YJukbxz2c8lz1Wu';
+    const alumni13 = 'https://lh3.googleusercontent.com/d/1QatM9zrpnEovh4dG4ZHe-vN2i4wwWVP3';
+    const alumni14 = 'https://lh3.googleusercontent.com/d/1YgyAPLQRh8Ff1PXAQcsoOfv8gUuYJ305';
+    const alumni15 = 'https://lh3.googleusercontent.com/d/1Ij8SZX8PTSfMmrfxcoc1wBf5ME3AGCqa';
+    const alumni16 = 'https://lh3.googleusercontent.com/d/1fDqcgpM3BFqpLZ81UCPh8nWqi88w2s-x';
+    const alumni17 = 'https://lh3.googleusercontent.com/d/1dDsiz01jt9SGup1Pb0wxgGqWYAHXXJ-R';
+
     var settings = {
         dots: true,
         infinite: true,
